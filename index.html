@@ -10,12 +10,37 @@
 </head>
 <body>
     <header class="header">
-       
+       <div class="header_nav">
+        <ul>
+          <li> <a href="index.html"> Inicio </a> </li>
+          <li><a href="./html/tocados.html">Tocados</a></li>
+          <li><a href="./html/peinados.html">Peinados</a></li>
+          <li><a href="./html/nosotros.html">Nosotros</a></li>
+          <li><a href="./html/contactanos.html">Contactanos</a></li>
+      </ul>
+       </div>
+       <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-primary p-4">
+          <ul>
+            <li> <a href="index.html"> Inicio </a> </li>
+            <li><a href="./html/tocados.html">Tocados</a></li>
+            <li><a href="./html/peinados.html">Peinados</a></li>
+            <li><a href="./html/nosotros.html">Nosotros</a></li>
+            <li><a href="./html/contactanos.html">Contactanos</a></li>
+        </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
     </header>
 
-    <main class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-md-6">
+    <main class="main">
+            <div class=main_imagen>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -24,13 +49,13 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="./img/menu.jpg" class="d-block w-100" alt="...">
+                        <img src="/assets/img/menu.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="./img/peinados/peinado6.jpg" class="d-block w-100" alt="...">
+                        <img src="/assets/img/peinados/peinado6.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="./img/peinados/peinado5.jpg" class="d-block w-100" alt="...">
+                        <img src="/assets/img/peinados/.jpg" class="d-block w-100" alt="...">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -43,19 +68,11 @@
                     </button>
                   </div>
             </div>
-            <div class="col-md-6 col-xs-12">
                 <div class="main_historia">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eius debitis expedita et architecto natus adipisci. Ipsam quidem cum voluptate architecto soluta odio aliquid consequatur modi repudiandae cumque aliquam, repellat, iste, esse minima nemo quod. Enim sed provident culpa possimus voluptatibus illo eius rerum, fugiat dignissimos autem aperiam quaerat reiciendis maiores? Autem doloribus doloremque quo nemo cupiditate reiciendis obcaecati culpa minus maiores assumenda, iusto nam aliquid explicabo distinctio, dolore voluptatem sit fuga aliquam blanditiis sunt expedita! Inventore cupiditate eveniet obcaecati, debitis velit ab harum tenetur. Porro, ipsam. Repellendus delectus ipsam perferendis assumenda. Asperiores dolore assumenda doloribus expedita voluptas quas dolor.</p>
                 </div>
-             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
                 <div class="main_boton">
                     <a href="peinados.html"> <h4>Encontra tu look ideal</h4></a>
-                </div>
-            </div>
-            <div class="col-md-6 col-xs-12">
                 <div class="main_video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/0XE9sCs1HYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
