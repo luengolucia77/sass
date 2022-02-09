@@ -18,7 +18,6 @@ body{
     
 }
 .collapse{
-    background-color:#FFAFAF;
     ul{
         list-style-type: none;
         padding-left: 0px;
@@ -51,29 +50,33 @@ main{
     margin-top: 2rem;
     margin-right:2rem;
     margin-left: 2rem;
+    img{
+        width: 100%;
+    }
 
-}
-.main_imgen img{
-    width: 100%;
 }
 .main_historia{
     margin: 2rem;
     text-align: justify;
 }
 .main_boton{
-    border: inset #FFAFAF;
+    border: inset $primary;
     margin-bottom: 2rem;
+    a{
+        color: black;
+        font-size: large;
+        text-decoration:none;
+    }
 }
-.main_boton a{
-    color: black;
-    font-size: large;
-    text-decoration:none;
-}
+
 .main_video{
     margin-right:2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
     width: 90%;
+    iframe{
+        width: 100%;
+    }
 }
 .main_video iframe{
     width: 100%;
