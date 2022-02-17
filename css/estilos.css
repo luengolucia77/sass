@@ -11093,14 +11093,6 @@ body {
   background-color: #FBFFE2;
 }
 
-.header_nav {
-  display: none;
-}
-
-.header_nav ul {
-  display: none;
-}
-
 .collapse ul {
   list-style-type: none;
   padding-left: 0px;
@@ -11123,7 +11115,7 @@ body {
 }
 
 /* --------MAIN---------- */
-main {
+.main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11151,12 +11143,12 @@ main {
   text-align: justify;
 }
 
-.main_boton {
+.main_link {
   border: inset #FFAFAF;
   margin-bottom: 2rem;
 }
 
-.main_boton a {
+.main_link a {
   color: black;
   font-size: large;
   text-decoration: none;
@@ -11173,267 +11165,34 @@ main {
   width: 100%;
 }
 
-.main_video iframe {
-  width: 100%;
-}
-
-.main_boton {
-  width: 70px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-
-/*---------------FOOTER-----------*/
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0.5rem;
-  background-color: #FFAFAF;
-}
-
-.footer_seguinos_img {
-  list-style: none;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.footer_seguinos h4, .footer_seguinos .h4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: large;
-}
-
-.footer_seguinos_img li {
-  display: inline-block;
-}
-
-.footer_seguinos_img a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer_contactanos {
-  display: none;
-}
-
-.footer_pagos {
-  display: none;
-}
-
-/*------------- GALERIA -------------- */
-.main_titulo {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.main_titulo h1, .main_titulo .h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: xx-large;
-}
-
-.main_galeria {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "img" "img" "img" "img" "img" "img";
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.main_galeria img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.main_galeria img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-/*---------------NOSOTROS-----------------*/
-.main_nosotros {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main_nosotros_titulo {
-  padding: 1rem;
-  font-size: x-large;
-}
-
-.main_nosotros_img {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 90%;
-}
-
-.main_nosotros_img img {
-  width: 100%;
-}
-
-.main_nosotros_historia {
-  text-align: justify;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.main_visitanos_titulo {
-  padding: 1rem;
-  font-size: x-large;
-}
-
-.main_visitanos_ubicacion {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 90%;
-}
-
-.main_visitanos_ubicacion iframe {
-  width: 100%;
-}
-
-.main_visitanos_horarios {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-size: large;
-}
-
-/*-------------CONTACTANOS-------------------*/
-.main_contactanos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main_contactanos_titulo {
-  padding: 1rem;
-  font-size: large;
-}
-
-.formulario {
-  width: 90%;
-  padding-bottom: 20px;
-}
-
-.formulario_items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.consultas {
-  width: 100%;
-}
-
-.dato {
-  display: block;
-  width: 60%;
-  padding: 10px;
-  margin: 10px auto;
-}
-
-.contenedor_boton {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.boton {
-  color: black;
-  padding: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 40px 40px #FFAFAF inset, 0 0 0 0 #FFAFAF;
-          box-shadow: 0 0 40px 40px #FFAFAF inset, 0 0 0 0 #FFAFAF;
-  -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
-  border-color: #FF9999;
-}
-
-.boton:hover {
-  -webkit-box-shadow: 0 0 10px 0 #FFAFAF inset, 0 0 10px 4px #FFAFAF;
-          box-shadow: 0 0 10px 0 #FFAFAF inset, 0 0 10px 4px #FFAFAF;
-}
-
-.titulo {
-  display: block;
-  width: 50%;
-  padding: 10px;
-  margin: 10px auto;
-  font-size: large;
-  text-align: center;
-}
-
 /*---------------MEDIA-------------------*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .header_nav {
-    height: 120px;
+    background-image: url("/assets/img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .header_nav a {
-    padding: 1.1rem;
-    font-size: 1.2rem;
+  .header_nav ul {
+    list-style-type: none;
+    padding: 2rem;
+  }
+  .header_nav ul li {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .header_nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: #FFAFAF;
+    padding: 0.5rem;
   }
   .main {
     display: -ms-grid;
@@ -11448,86 +11207,6 @@ main {
     gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-  }
-  .main_boton a {
-    font-size: x-large;
-  }
-  /* ------------FOOTER------------- */
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 1 rem;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .footer_seguinos {
-    list-style: none;
-    text-align: center;
-  }
-  .footer_seguinos_img {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .footer_seguinos h4, .footer_seguinos .h4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: large;
-  }
-  .footer_seguinos_img li {
-    display: inline-block;
-  }
-  .footer_seguinos_img a {
-    color: black;
-    text-decoration: none;
-  }
-  .footer_contactanos {
-    list-style: none;
-    text-align: center;
-    display: block;
-  }
-  .footer_contactanos_img li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .footer_contactanos_img h5, .footer_contactanos_img .h5 {
-    font-size: large;
-  }
-  .footer_pagos {
-    list-style: none;
-    text-align: center;
-    display: block;
-  }
-  .footer_pagos_img h4, .footer_pagos_img .h4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: large;
-  }
-  .footer_pagos_img li {
-    display: inline-block;
-  }
-  .titulo {
-    font-size: x-large;
-    width: 25%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

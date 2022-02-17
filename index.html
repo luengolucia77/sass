@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css-bt/bootstrap.min.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-       <div class="header_nav">
-        <ul>
-          <li> <a href="index.html"> Inicio </a> </li>
-          <li><a href="./html/tocados.html">Tocados</a></li>
-          <li><a href="./html/peinados.html">Peinados</a></li>
-          <li><a href="./html/nosotros.html">Nosotros</a></li>
-          <li><a href="./html/contactanos.html">Contactanos</a></li>
-      </ul>
-       </div>
-       <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-primary p-4">
+      <div class="d-none d-sm-none d-md-block">
+        <div class="header_nav">
           <ul>
+            <li> <a href="index.html"> Inicio </a> </li>
+            <li><a href="./html/tocados.html">Tocados</a></li>
+            <li><a href="./html/peinados.html">Peinados</a></li>
+            <li><a href="./html/nosotros.html">Nosotros</a></li>
+            <li><a href="./html/contactanos.html">Contactanos</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+       <div class="collapse d-md-none " id="navbarToggleExternalContent">
+        <div class="bg-primary p-4">
+          <ul class="container-fluid">  
             <li> <a href="index.html"> Inicio </a> </li>
             <li><a href="./html/tocados.html">Tocados</a></li>
             <li><a href="./html/peinados.html">Peinados</a></li>
@@ -30,9 +33,9 @@
         </ul>
         </div>
       </div>
-      <nav class="navbar navbar-dark bg-primary">
+      <nav class="navbar navbar-dark bg-primary d-md-none">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
@@ -71,13 +74,13 @@
                 <div class="main_historia">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eius debitis expedita et architecto natus adipisci. Ipsam quidem cum voluptate architecto soluta odio aliquid consequatur modi repudiandae cumque aliquam, repellat, iste, esse minima nemo quod. Enim sed provident culpa possimus voluptatibus illo eius rerum, fugiat dignissimos autem aperiam quaerat reiciendis maiores? Autem doloribus doloremque quo nemo cupiditate reiciendis obcaecati culpa minus maiores assumenda, iusto nam aliquid explicabo distinctio, dolore voluptatem sit fuga aliquam blanditiis sunt expedita! Inventore cupiditate eveniet obcaecati, debitis velit ab harum tenetur. Porro, ipsam. Repellendus delectus ipsam perferendis assumenda. Asperiores dolore assumenda doloribus expedita voluptas quas dolor.</p>
                 </div>
-                <div class="main_boton">
-                    <a href="peinados.html"> <h4>Encontra tu look ideal</h4></a>
+                 <div class="main_link">
+                  <a href="peinados.html"> <h4>Encontra tu look ideal</h4></a>
+              </div>
                 <div class="main_video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/0XE9sCs1HYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-            </div>
-        </div>
+               
     </main>
     <div class="botonWp">
         <img src="/img/icons/wp.png" alt="">
