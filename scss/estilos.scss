@@ -2,7 +2,6 @@
 @import "./_extend.scss";
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -82,6 +81,7 @@ body{
         display: flex;
         justify-content: center;
         font-size: large;
+    }
         li{
             display: inline-block;
             a{
@@ -89,7 +89,6 @@ body{
                 text-decoration: none;
             }
         }
-    }
 }
 .footer_contactanos{
     display: none;

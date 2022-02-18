@@ -11218,11 +11218,11 @@ body {
   font-size: large;
 }
 
-.footer_seguinos_img h4 li, .footer_seguinos_img .h4 li {
+.footer_seguinos_img li {
   display: inline-block;
 }
 
-.footer_seguinos_img h4 li a, .footer_seguinos_img .h4 li a {
+.footer_seguinos_img li a {
   color: black;
   text-decoration: none;
 }
