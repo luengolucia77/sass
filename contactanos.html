@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css-bt/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Contactanos</title>
+</head>
+<body id="body">
+    <header class="header">
+        <div class="d-none d-sm-none d-md-block">
+          <div class="header_nav">
+            <ul>
+              <li> <a href="./index.html"> Inicio </a> </li>
+              <li><a href="./tocados.html">Tocados</a></li>
+              <li><a href="./peinados.html">Peinados</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./contactanos.html">Contactanos</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+         <div class="collapse d-md-none " id="navbarToggleExternalContent">
+          <div class="bg-primary p-4">
+            <ul class="container-fluid">  
+              <li> <a href="./index.html"> Inicio </a> </li>
+              <li><a href="./tocados.html">Tocados</a></li>
+              <li><a href="./peinados.html">Peinados</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./contactanos.html">Contactanos</a></li>
+          </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-primary d-md-none">
+          <div class="container-fluid">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </header>
+  
+   <main class="main_contactanos">
+       <div class="main_contactanos_titulo">
+        <h1>Contactanos</h1>
+       </div>
+            <form class="formulario">
+                <fieldset class="formulario_items">
+                    <legend class="titulo">Envianos tu consulta</legend>
+                    <label class="dato" for="nombre">Nombre y apellido</label>
+                    <input class="dato" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre y apellido" required>
+                    
+                    <label class="dato" for="email">Email</label>
+                    <input  class="dato" type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
+                    
+                    <label class="dato" for="telefono">Telefono</label>
+                    <input  class="dato" type="text" name="telefono" id="telefono" placeholder="ej:1121314151">
+                  
+                    <label class="dato" for="consulta">Consulta/Comentarios</label>
+                    <div class="consultas">
+                    <textarea class="dato" name="mensaje" id="mensaje" cols="30" rows="10"  placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div class="contenedor_boton">
+                    <input class="estiloboton" type="submit" value="Enviar consulta">
+                    </div>
+                </fieldset>
+            </form>
+    </main>
+    <footer class="footer">
+        <div class="footer_seguinos">
+        <h4>Seguinos</h4>
+        <ul class="footer_seguinos_img">
+            <li><a href="https://www.instagram.com/"><img src="./assets/img/icons/insta.png" alt=""></a></li>
+            <li> <a href="https://www.facebook.com/"><img src="./assets/img/icons/icons8-facebook-50.png" alt=""></a></li>
+            <li><a href="https://m.youtube.com/"><img src="./assets/img/icons/youtube.png" alt=""></a></li>
+        </ul>
+       </div>
+        <div class="footer_contactanos">
+        <h4>Contactanos</h4>
+        <ul class="footer_contactanos_img">
+            <li> <img src="./assets/img/icons/telefono.png" alt=""> <p>XX-XXXXXXXX</p></li>
+            <li><img src="./assets/img/icons/mail.png" alt=""><h5>xxxxxx@xxx.com</h5></li>
+        </ul>
+        </div>  
+        <div class="footer_pagos">
+        <h4>Medios de pago</h4>
+        <ul class="footer_pagos_img">
+            <li><img src="./assets/img/icons/pago1.png" alt=""></li>
+            <li><img src="./assets/img/icons/pago2.png" alt=""></li>
+            <li><img src="./assets/img/icons/pago3.png" alt=""></li>
+        </ul>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="./js-bt/bootstrap.min.js"></script>
+   </body>
+   
+
+</html>
