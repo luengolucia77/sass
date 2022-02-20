@@ -1,0 +1,26 @@
+@import "./variables";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: $primary;
+}
+
+.footer_seguinos_img li{
+    display: inline-block;
+}
+.footer_seguinos h4{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.footer_contactanos{
+    display: none;
+}
+
+.footer_pagos{
+   display: none;
+}

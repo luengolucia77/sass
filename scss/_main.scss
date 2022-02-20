@@ -1,0 +1,55 @@
+@import "./variables";
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_imagen{
+    margin-top: 2rem;
+    margin-right:2rem;
+    margin-left: 2rem;
+    img{
+        width: 100%;
+    }
+
+}
+.main_historia{
+    margin: 2rem;
+    text-align: justify;
+}
+.main_link{
+    border: inset $primary;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 0 40px 40px $primary inset, 0 0 0 0 $primary;
+    transition: all 150ms ease-in-out;
+    border-color: $secondary;
+    &:hover{
+         box-shadow:0 0 10px 0 $primary inset, 0 0 10px 4px $primary;;
+    }
+    h4{
+        padding-left: 10px;
+        padding-top:10px;
+        padding-right: 10px;
+    }
+}
+
+.main_video{
+    margin-right:2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    iframe{
+        width: 100%;
+    }
+}
+
+.botonWp{
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

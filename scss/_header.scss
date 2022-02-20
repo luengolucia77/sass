@@ -1,0 +1,22 @@
+@import "./variables";
+
+.collapse{
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        li{
+            border:inset $secondary;
+            padding: 0.5rem;
+            
+            a{
+                text-decoration:none;
+                text-transform: uppercase;
+                color: $colorletras;
+            }
+            &:hover{
+                background: $secondary;
+            }
+        }
+    }
+}

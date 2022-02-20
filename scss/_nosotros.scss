@@ -1,0 +1,51 @@
+@import "./variables";
+
+.main_nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_nosotros_titulo{
+    padding: 1rem;
+    font-size: x-large;
+}
+.main_nosotros_img{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%;
+    img{
+        width: 100%;
+    }
+}
+
+.main_nosotros_historia{
+    text-align: justify;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.main_visitanos_titulo{
+    padding: 1rem;
+    font-size: x-large;
+}
+.main_visitanos_ubicacion{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%;
+    iframe{
+        width: 100%;
+    }
+}
+
+.main_visitanos_horarios{
+    padding-top:1rem;
+    padding-bottom:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: large;
+}

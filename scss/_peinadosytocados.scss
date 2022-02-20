@@ -1,0 +1,32 @@
+@import "./variables";
+
+.main_titulo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+    }
+}
+.main_galeria{
+    display: grid;
+    grid-template-areas:
+    "img""img""img"
+    "img""img""img";
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    
+
+}
