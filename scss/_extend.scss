@@ -6,6 +6,12 @@
     text-decoration:none;
 
 }
+.estilo_titulos{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: $colorletras;
+}
 .estiloboton{
     color: $colorletras;
     padding: 10px;
@@ -20,3 +26,4 @@
          box-shadow:0 0 10px 0 $primary inset, 0 0 10px 4px $primary;;
     }
 }
+

@@ -5,10 +5,7 @@
     flex-direction: column;
     align-items: center;
 }
-.main_contactanos_titulo{
-    padding: 1rem;
-    font-size: large;
-}
+
 .formulario{
     width: 90%;
     padding-bottom: 20px;
@@ -36,6 +33,24 @@
     width: 50%;
     padding: 10px;
     margin: 10px auto;
-    font-size: large;
+    font-size: x-large;
     text-align: center;
+    border-bottom: inset $secondary;
+}
+
+.contenedor_boton{
+    input{
+    color: $colorletras;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 0 40px 40px $primary inset, 0 0 0 0 $primary;
+    transition: all 150ms ease-in-out;
+    border-color: $secondary;
+    &:hover{
+         box-shadow:0 0 10px 0 $primary inset, 0 0 10px 4px $primary;;
+    }
+}
 }
