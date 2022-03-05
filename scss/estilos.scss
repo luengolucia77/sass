@@ -27,7 +27,7 @@ body{
 /*---------------MEDIA-------------------*/
 @media screen and (min-width:769px) {
     .header_nav{
-        background-image: url("/assets/img/header.jpg");
+        background-image: url("./header.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -61,9 +61,6 @@ body{
     }
     .main{
         display: grid;
-        grid-template-areas: 
-        "foto" "texto"
-        "boton" "video";
         grid-template-columns: 1fr 1.5fr;
         grid-template-rows: 2fr 1.5fr;
         justify-items: center;
